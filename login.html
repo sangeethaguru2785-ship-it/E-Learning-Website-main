@@ -49,7 +49,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="img/logo.png" alt="Stackly Logo"height="50px"></p> 
+            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="img/logo.webp" alt="Stackly Logo"height="50px"></p> 
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             style="border: none;">
@@ -98,16 +98,26 @@
 
 
     <!-- Login Start -->
+     
     <div class="container-xxl py-2 mt-4">
         <div class="container">
           
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.5s ">
                 <center>
-                    <form class="shadow p-4" style="max-width: 550px;">
-                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                            <h1 class="mb-5 bg-white text-center px-3">Login</h1>
-            
-                        </div>
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+    <h1 class="mb-4 bg-white text-center px-3">Login</h1>
+
+    <!-- Login Type Buttons -->
+    <div class="d-flex justify-content-center gap-3 mb-4">
+        <button type="button" class="btn btn-primary active" id="userBtn">
+            <i class="fa fa-user me-2"></i>Student 
+        </button>
+
+        <button type="button" class="btn btn-outline-dark" id="adminBtn">
+            <i class="fa fa-user-shield me-2"></i>Instructor
+        </button>
+    </div>
+</div>
                         <div class="row g-3">
                             <div class="col-12">
                                 <div class="form-floating">
@@ -158,7 +168,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Asansol, West Bengal (713305)</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Chennai</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7258019464</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>techstackly@gmail.com</p>
                     <div class="d-flex pt-2">
@@ -188,7 +198,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="index.html">Tech Stackly</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="index.html">Tech Stackly</a> All Right Reserved.
 
                     </div>
                 </div>
@@ -212,6 +222,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
 </body>
 
 </html>
